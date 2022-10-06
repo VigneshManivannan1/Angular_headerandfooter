@@ -1,0 +1,25 @@
+.header{
+
+  background: #4c55d1;
+  padding: 3px 5px;
+}
+
+nav a {
+  padding: 5px 20px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(204, 204, 219);
+  border-radius: 20px;
+  margin: 2%;
+}
+
+nav a:visited, a:link {
+  color: #77a2b8;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #1b607e;
+}
+nav a.active {
+  color: #039be5;
+}
